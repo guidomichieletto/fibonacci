@@ -8,6 +8,7 @@ int fibonacci(int pos){
 
 int main(){
 	int pos = 0;
+	cout << "Insert the pos: ";
 	cin >> pos;
 	cout << fibonacci(pos);
 }
